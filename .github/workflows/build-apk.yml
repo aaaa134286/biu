@@ -16,6 +16,13 @@ jobs:
           node-version: 22.17.1
           cache: 'pnpm'
 
+      # ✅ 新增：设置 Java 21 环境
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
