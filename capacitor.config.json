@@ -1,0 +1,6 @@
+{
+  "appId": "com.aaaa134286.biu",
+  "appName": "Biu",
+  "webDir": "dist/web",
+  "bundledWebRuntime": false
+}
